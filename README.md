@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ArtNex.png" alt="ArtNex" style="display:block; margin:auto; transform: scale(0.8);" />
+  <img src="ArtNex.png" alt="ArtNex" style="display:block; margin:auto; transform: scale(0.6);" />
 </p>
 
 ## ArtNex: Tech, Art, Tomorrow! 🎆
