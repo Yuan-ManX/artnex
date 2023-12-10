@@ -22,7 +22,7 @@
 
 
 import numpy as np 
-from core import get_array_module
+from core import get_array
 
 
 class Optimizer:
@@ -242,7 +242,7 @@ class MomentumSGD(Optimizer):
         Args:
             param: Model parameter to be updated.
         """
-        xp = get_array_module(param.data)
+        xp = get_array(param.data)
         param_id = id(param)
 
         # Initialize the momentum state for the parameter if not already present
@@ -279,7 +279,7 @@ class WeightDecaySGD(Optimizer):
         Args:
             param: Model parameter to be updated.
         """
-        xp = get_array_module(param.data)
+        xp = get_array(param.data)
         param_id = id(param)
 
         if param_id not in self.param_state:
