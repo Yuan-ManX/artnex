@@ -49,7 +49,6 @@ setuptools.setup(
     long_description=__doc__,
     install_requires=[
         'numpy',
-        'contextlib',
         'cupy',
         'matplotlib',
         'urllib',
