@@ -38,7 +38,7 @@ sys.path.append(version_path)
 from artnex import __version__  
 
 setuptools.setup(
-    name='ArtNex',
+    name='artnex',
     version=__version__,
     description='ArtNex is a deep learning framework exploring the innovative fusion of art and technology.',
     author='Yuan Man',
