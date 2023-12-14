@@ -54,7 +54,7 @@ setuptools.setup(
         'requests',
         'onnx',
         'onnxruntime',
-        'PIL',
+        'Pillow',
         'librosa',
         'tqdm',
     ],
