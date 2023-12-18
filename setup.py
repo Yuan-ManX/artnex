@@ -49,7 +49,8 @@ setuptools.setup(
     long_description=__doc__,
     install_requires=[
         'numpy',
-        'cupy',
+        'cupy-cuda12x',
+        'cupy-cuda11x',
         'matplotlib',
         'requests',
         'onnx',
